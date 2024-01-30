@@ -1,0 +1,59 @@
+body{
+	background-color: #ffffff;
+	margin: 0;
+	font-family: 'Josefin Sans';
+	
+}
+/*header*/
+header{
+	position: fixed;
+	top:0;
+	margin: 0;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: grid;
+	grid-template-columns: auto auto;
+	background-color: #ffffff;
+}
+#levo{
+	font-size: 25px;
+	width: 200px;
+	padding-bottom:11px;
+	margin:0;
+	padding: 7px 10px 10px 20px;
+	margin: 0;
+}
+#desno{
+	font-size: 20px;
+	padding-bottom:11px;
+	margin:0;
+	padding: 10px 10px 10px 20px;
+	margin: 0;
+	justify-self: end;
+
+}
+.adesno{
+	padding-right:20px;
+	text-decoration: none;
+	color: #293975;
+	}
+
+.alevo{
+	padding-right:20px;
+	text-decoration: none;
+	color: #293975;
+	}
+a:hover {
+	color: #FF4E31;
+}
+
+.Projekat img{
+width: 100vw;
+height: auto;
+
+
+}
+
+
+

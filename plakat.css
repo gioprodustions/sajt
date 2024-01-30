@@ -1,0 +1,88 @@
+body{
+	background-color: #ffffff;
+	margin: 0;
+	font-family: 'Josefin Sans';
+	
+}
+/*header*/
+header{
+	position: fixed;
+	top:0;
+	margin: 0;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: grid;
+	grid-template-columns: auto auto;
+	background-color: #ffffff;
+}
+#levo{
+	font-size: 25px;
+	width: 200px;
+	padding-bottom:11px;
+	margin:0;
+	padding: 7px 10px 10px 20px;
+	margin: 0;
+}
+#desno{
+	font-size: 20px;
+	padding-bottom:11px;
+	margin:0;
+	padding: 10px 10px 10px 20px;
+	margin: 0;
+	justify-self: end;
+
+}
+.adesno{
+	padding-right:20px;
+	text-decoration: none;
+	color: #592E72;
+	}
+
+.alevo{
+	padding-right:20px;
+	text-decoration: none;
+	color: #592E72;
+	}
+
+/*header kraj*/
+
+
+main {
+	padding-top: 60px;
+
+}
+.adesno:hover{
+	color:#F7B340;
+}
+
+
+
+#plakati{
+	display:grid;
+	grid-template-columns: auto auto auto;
+	margin: 9vh 5vw 0 4vw;
+	grid-gap: 1vw;
+}
+
+.Plakat img{
+	width:30vw;
+	height: auto;
+}
+
+.jedan:hover{
+	
+}
+.dva{
+	display:none;
+}
+
+.tekst {
+	font-family:'Josefin Sans', Arial,sans-serif;
+	font-size: 20px;
+	text-align: center;
+	line-height: 28px;
+	margin:4vh 20vw;
+	color:#592E72;
+	font-weight: 300;
+}

@@ -1,0 +1,107 @@
+body{
+	background-color: #ffffff;
+	margin: 0;
+	font-family: 'Josefin Sans';
+}
+
+header{
+	position: fixed;
+	top:0;
+	margin: 0;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: grid;
+	grid-template-columns: auto auto;
+	background-color: #ffffff;
+}
+#levo{
+	font-size: 25px;
+	width: 200px;
+	padding-bottom:11px;
+	margin:0;
+	padding: 7px 10px 10px 20px;
+	margin: 0;
+}
+#desno{
+	font-size: 20px;
+	padding-bottom:11px;
+	margin:0;
+	padding: 10px 10px 10px 20px;
+	margin: 0;
+	justify-self: end;
+
+}
+.adesno{
+	padding-right:20px;
+	text-decoration: none;
+	color: #592E72;
+	}
+
+.alevo{
+	padding-right:20px;
+	text-decoration: none;
+	color: #592E72;
+	}
+
+a{
+	text-decoration: none;
+}
+
+h1{
+	font-family:arial, sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	margin: 0;
+	padding: 10px 0 10px 0;
+
+}
+
+main{
+	display:grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto;
+	grid-template-rows: 19vh 19vh 19vh 19vh ;
+	margin: 60px 5vw 0 5vw ;
+	grid-gap: 2.5vw;
+}
+
+.adesno:hover{
+	color:gray;
+}
+
+.Projekat img{ 
+	width:100%;
+}
+
+.Projekat:hover {
+	transform: scale(1.08);
+	transition-duration: 250ms
+}
+.opis {
+	font-family:'Josefin Sans', Arial,sans-serif;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: center;
+	color:#293975;
+	margin: 7vh;
+	font-weight: 300;
+	
+
+}
+
+
+
+.jedan:hover{
+	cursor: pointer;
+}
+.dva{
+	display:none;
+}
+
+/*.jedan:hover{
+	display:none;
+}
+.dva:hover{
+	display:inherit;
+}
+*/

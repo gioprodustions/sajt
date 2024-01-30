@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<title>razgvori</title>
+	<link rel="stylesheet" href="razgovori.css">
+
+	<style>	
+	
+</style>
+</head>
+
+<script>
+	function changeDiv(id){
+	console.log('ch', id)
+		const elem = document.getElementById(id);
+		elem.className='dva';
+		const elem2 = document.getElementById(++id);
+		elem2.className='jedan';
+  }
+  	function returnDiv(id){
+			console.log('ret',id)
+
+		const elem = document.getElementById(id);
+		elem.className='dva';
+		const elem2 = document.getElementById(--id);
+		elem2.className='jedan';
+  }
+  
+</script>
+<body>
+	<header>
+		<div id='levo'>
+			<a class='alevo'> razgovori </a>
+		</div>
+		<div id='desno'>
+			<a class='adesno' href="pocetna.html"> početna </a> 
+			<a class='adesno' href="omeni.html"> o meni</a>
+		</div>
+	</header>
+	
+ <div id='sve'>
+	<div class="zgrada"> 
+    		<img id='1' onmouseover='changeDiv(id)' class='jedan' src='zgrada bez.png' >
+    		<a href="zgrada.html">
+    		<img id='2' onmouseout='returnDiv(id)' class='dva' src="zgrada ljudi.png">
+    	</a>
+    	</div>
+
+    <div id="oba">
+    	
+    		<div class="oblak">
+    			<img src='oblaci.gif'>
+    		</div>
+
+    		<div class='tekst'>Za ovaj projekat beležila sam delove razgovora ljudi koje bih u prolazu čula u okolini svoje zgrade.
+
+    		</div>
+
+    </div>
+</div>
+
+</body>
+</html>
+  
+
+
+
+   
+    	
+
+</body>
+
+</html>

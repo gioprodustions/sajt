@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta charset="utf-8">
+	<title>snovi</title>
+	<link rel="stylesheet" href="pocetna.css">
+</head>
+<script>
+	var i=0;
+	var intervalId = setInterval(function() {
+		var c = i++%5;
+		c+=1;
+		console.log('p',c)
+		let elem = document.getElementById(c);
+		elem.className='dva';
+		c=c%5;
+		c+=1;
+		console.log('d',c)
+		let elem2 = document.getElementById(c);
+		elem2.className='jedan';
+	}, 500);
+</script>
+<body>
+
+	<header>
+		<div id='levo'>
+			<a class="alevo"> olga </a>
+		</div>
+		<div id='desno'>
+			<a class='adesno' href="pocetna.html"> početna </a> 
+			<a class='adesno' href="omeni.html"> o meni</a>
+		</div>
+	</header>
+	<main>
+		<a id='1'class='jedan' href='razgovori.html'>
+			<img src='frames/oblak.png'>
+		</a>
+		<a id='2' class='dva' href='plakati.html'>
+			<img src='frames/strudel.png'>
+		</a>
+		<a id='3'class='dva' href='snovi.html'>
+			<img src='frames/san.png'>
+		</a>
+		<a id='4' class='dva' href='ck.html'>
+			<img src='frames/kvadrat.png'>
+		</a>
+		<a id='5' class='dva' href='stilske.html'>
+			<img src='frames/stilske.png'>
+		</a>
+	</main>
+</body>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<title>plakati</title>
+	<link rel="stylesheet" href="plakat.css">
+
+	<style>	
+	
+</style>
+</head>
+
+<script>
+	function changeDiv(id){
+	console.log('ch', id)
+		const elem = document.getElementById(id);
+		elem.className='dva';
+		const elem2 = document.getElementById(++id);
+		elem2.className='jedan';
+  }
+  	function returnDiv(id){
+			console.log('ret',id)
+
+		const elem = document.getElementById(id);
+		elem.className='dva';
+		const elem2 = document.getElementById(--id);
+		elem2.className='jedan';
+  }
+  
+</script>
+<body>
+	<header>
+		<div id='levo'>
+			<a class='alevo'> plakati </a>
+		</div>
+		<div id='desno'>
+			<a class='adesno' href="pocetna.html"> početna </a> 
+			<a class='adesno' href="omeni.html"> o meni</a>
+		</div>
+	</header>
+		<div id='plakati'>
+    
+    	<div class="Plakat"> 
+    		<img id='1' onmouseover='changeDiv(id)' class='jedan' src='plakati/ljubicasto.png' >
+    		<img id='2' onmouseout='returnDiv(id)' class='dva' src="plakati/drei.png">
+    	</div>
+    	<div class="Plakat">
+    		<img id='3' onmouseover='changeDiv(id)' class='jedan' src='plakati/crveno.png' >
+    		<img id='4' onmouseout='returnDiv(id)' class='dva' src="plakati/uno.png">
+    	</div>
+
+    	<div class="Plakat">
+    		<img id='5' onmouseover='changeDiv(id)' class='jedan' src='plakati/zuto.png' >
+    		<img id='6' onmouseout='returnDiv(id)' class='dva' src="plakati/deux.png">
+
+    	</div>
+    </div>
+
+   
+    	<div class='tekst'>Ove plakate sam radila za Tarantinov film "Inglourious basterds". U filmu, pored engleskog jezika, pričaju se nemački, italijanski i francuski, zbog čega sam na plakatima odlučila da predstavim po jednu scenu na svakom od jezika. Stil ilustracije inspirisan je plakatima Tuluza Lotreka.  </div>
+
+     </main>
+
+</body>
+
+</html>
